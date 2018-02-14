@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rulebookbackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="35dp"
+        android:text="Banco is a mutiplayer card game fun for all ages. The person calls an amount from his alloted pot whether the next card would be between the two or not. If he thinks it will be then she call some amount and tap in , if the card does fall in between the user gets the amount he called from the bank pot and if not then he has to put that much money in the bank pot. And if he thinks it wont be then he simply taps out. And if the person is very sure that the will be between the two then he can call Banco(by tapping on Banco), and if the card is in between the user gets all the money in the pot but if not he needs to pay as much amount as in the bank pot."
+        android:textSize="16sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/backtoMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main Menu" 
+        android:layout_gravity="center"/>
+
+</LinearLayout>
